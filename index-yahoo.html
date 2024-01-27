@@ -1,0 +1,97 @@
+<!-- yahoo_search.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yahoo Search</title>
+  </head>
+  <body
+    style="
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    "
+  >
+    <nav
+      style="
+        background-color: #720e9e;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      "
+    >
+      <!-- Purpose: Navigation link to Google Search form -->
+      <a
+        href="index.html"
+        style="
+          background-color: #fff;
+          padding: 10px;
+          color: #333;
+          text-decoration: none;
+        "
+        >Google Search</a
+      >
+      <!-- Purpose: Navigation link to Bing Search form -->
+      <a
+        href="index-bing.html"
+        style="
+          background-color: #fff;
+          padding: 10px;
+          color: #333;
+          text-decoration: none;
+        "
+        >Bing Search</a
+      >
+      <!-- Purpose: Navigation link to Yahoo Search form (highlighted) -->
+      <a
+        href="#"
+        style="
+          background-color: #4a00a0;
+          padding: 10px;
+          color: white;
+          text-decoration: none;
+        "
+        >Yahoo Search</a
+      >
+    </nav>
+
+    <!-- Yahoo Search Form -->
+    <form
+      action="https://search.yahoo.com/search"
+      method="GET"
+      style="
+        max-width: 600px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      "
+    >
+      <!-- Purpose: Search query input field -->
+      <input
+        type="text"
+        name="q"
+        placeholder="Search Yahoo"
+        style="width: 80%; padding: 10px; margin: 5px 0; box-sizing: border-box"
+      />
+      <!-- Purpose: Submit button -->
+      <input
+        type="submit"
+        value="Yahoo Search"
+        style="
+          width: 100%;
+          padding: 10px;
+          background-color: #4a00a0;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        "
+      />
+    </form>
+  </body>
+</html>
